@@ -5,6 +5,8 @@ import NavBar from "./sections/NavBar";
 
 
 import { ScrollTrigger } from "gsap/all";
+import FristVideo from "./sections/FristVideo";
+
 gsap.registerPlugin(ScrollTrigger);
 
 function App() {
@@ -12,6 +14,7 @@ function App() {
     <main>
         <NavBar />
         <Hero />
+        <FristVideo />
     </main>
   ); 
 }
