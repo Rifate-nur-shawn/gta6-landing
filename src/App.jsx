@@ -5,6 +5,7 @@ import NavBar from "./sections/NavBar";
 import { ScrollTrigger } from "gsap/all";
 import FristVideo from "./sections/FristVideo";
 import Jason from "./sections/Jason";
+import SecondVideo from "./sections/SecondVideo";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -15,6 +16,7 @@ function App() {
       <Hero />
       <FristVideo />
       <Jason />
+      <SecondVideo />
     </main>
   );
 }
