@@ -6,6 +6,7 @@ import { ScrollTrigger } from "gsap/all";
 import FristVideo from "./sections/FristVideo";
 import Jason from "./sections/Jason";
 import SecondVideo from "./sections/SecondVideo";
+import Lucia from "./sections/Lucia";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -17,6 +18,7 @@ function App() {
       <FristVideo />
       <Jason />
       <SecondVideo />
+    <Lucia /> 
     </main>
   );
 }
